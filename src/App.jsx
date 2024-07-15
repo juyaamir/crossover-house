@@ -1,5 +1,6 @@
 import House from './components/House'
 import About from './components/About'
+import Sale from './components/Sale'
 import './App.css'
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div className='bg-gray-100'>
       <House />
       <About />
+      <Sale />
     </div>
   )
 }
