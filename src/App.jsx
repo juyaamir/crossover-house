@@ -1,6 +1,7 @@
 import House from './components/House'
 import About from './components/About'
 import Sale from './components/Sale'
+import Price from './components/Price'
 import './App.css'
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <House />
       <About />
       <Sale />
+      <Price />
     </div>
   )
 }
