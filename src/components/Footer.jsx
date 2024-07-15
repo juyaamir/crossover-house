@@ -13,7 +13,7 @@ import {
 
 const Footer = () => {
   return (
-    <div className="bg-blue-800 text-white py-12 px-52">
+    <div className="bg-primary text-white py-12 px-52">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-20 text-center md:text-left">
         <div>
           <h2 className="text-xl font-bold mb-4">About Apartment</h2>
@@ -55,7 +55,7 @@ const Footer = () => {
             placeholder="Email address"
             className="w-full p-2 mb-4 text-black"
           />
-          <button className="bg-orange-400 text-white px-4 py-2  hover:bg-orange-500 hover:scale-105 mb-4">
+          <button className="bg-accent text-white px-4 py-2  hover:bg-orange-500 hover:scale-105 mb-4">
             Subscribe
           </button>
           <div className="flex justify-center md:justify-start space-x-4">

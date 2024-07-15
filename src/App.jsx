@@ -3,11 +3,11 @@ import About from "./components/About";
 import Sale from "./components/Sale";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import Price from './components/Price'
+import Price from "./components/Price";
 import "./App.css";
-import WhyChooseUs from './components/WhyChooseUs';
-import VeryGoodDeal from './components/VeryGoodDeal';
-import CustomerTestimonials from './components/CustomerTestimonials';
+import WhyChooseUs from "./components/WhyChooseUs";
+import VeryGoodDeal from "./components/VeryGoodDeal";
+import CustomerTestimonials from "./components/CustomerTestimonials";
 
 function App() {
   return (
@@ -15,12 +15,12 @@ function App() {
       <House />
       <About />
       <Sale />
-      <Contact />
-      <Footer />
       <Price />
       <VeryGoodDeal />
       <WhyChooseUs />
       <CustomerTestimonials />
+      <Contact />
+      <Footer />
     </div>
   );
 }

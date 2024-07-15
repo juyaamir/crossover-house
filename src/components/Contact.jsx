@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div className="text-center mt-8">
       <h1 className="text-2xl font-bold">Get In Touch</h1>
-      <div className="flex justify-center bg-blue-800 mt-8">
+      <div className="flex justify-center bg-primary mt-8">
         <div className="w-full md:w-1/2 p-4">
           <img
             className="w-full h-auto object-cover"
@@ -58,7 +58,7 @@ const Contact = () => {
             </div>
             <div className="text-right">
               <button
-                className="bg-orange-400 text-white px-12 py-2 rounded hover:bg-orange-500 hover:scale-105 rounded-full uppercase"
+                className="bg-accent text-white px-12 py-2 rounded hover:bg-orange-500 hover:scale-105 rounded-full uppercase"
                 type="submit"
               >
                 Send
