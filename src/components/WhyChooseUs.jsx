@@ -16,8 +16,8 @@ const WhyChooseUs = () => {
   return (
     <section className="bg-primary text-white py-10">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl font-bold mb-12">Why Choose Us</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+        <h2 className="text-2xl font-bold mb-12">Why Choose Us</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:px-80 gap-8">
           {reasons.map((reason, index) => (
             <div key={index} className="flex flex-col items-center">
               <div className="mb-4">{reason.icon}</div>
