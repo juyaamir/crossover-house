@@ -1,13 +1,15 @@
-
+import House from './components/House'
+import About from './components/About'
 import './App.css'
 
 function App() {
 
 
   return (
-    <>
-      <p className='text-red-400'>hello good</p>
-    </>
+    <div className='bg-gray-100'>
+      <House />
+      <About />
+    </div>
   )
 }
 
