@@ -5,6 +5,7 @@ import Price from './components/Price'
 import './App.css'
 import WhyChooseUs from './components/WhyChooseUs';
 import VeryGoodDeal from './components/VeryGoodDeal';
+import CustomerTestimonials from './components/CustomerTestimonials';
 
 function App() {
 
@@ -17,9 +18,7 @@ function App() {
       <Price />
       <VeryGoodDeal />
       <WhyChooseUs />
-
-     
-
+      <CustomerTestimonials />
     </div>
   )
 }
