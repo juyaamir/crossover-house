@@ -12,8 +12,8 @@ const VeryGoodDeal = () => {
                 <button className="font-bold rounded-3xl py-2 px-10 rounded mt-8">Get a quote</button>
             </div>
             <div className="md:w-1/2 p-4 flex flex-col items-center md:flex-row md:space-x-4">
-                <img src="/img/pexels-pixabay-259950.jpg" alt="House 1" className="w-full md:w-1/2 mb-4 md:mb-0 rounded-lg shadow-lg" />
-                <img src="/img/pexels-chaitaastic-1918291.jpg" alt="House 2" className="w-full md:w-1/2 rounded-lg shadow-lg" />
+                <img src="/img/pexels-pixabay-259950.jpg" alt="House 1" className="w-full md:w-1/2 mb-4 md:mb-0" />
+                <img src="/img/pexels-chaitaastic-1918291.jpg" alt="House 2" className="w-full md:w-1/2" />
             </div>
         </section>
     )
