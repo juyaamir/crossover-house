@@ -2,11 +2,11 @@
 
 const About = () => {
   return (
-    <div className="flex justify-around gap-8 mx-12 py-12">
+    <div className="flex justify-around gap-8 mx-12 py-12 flex-wrap">
      
-            { <img src="src/assets/inside1.jpg" alt="home" className="h-40"/> }
+            { <img src="src/assets/inside1.jpg" alt="home" className="h-56 "/> }
        
-        <div>
+        <div >
              <h1 className="font-bold text-xl py-3 text-blue-800"> About Our Apartment</h1>
              <p>Lorem ipsum dolor sit amet consectetur 
                 adipisicing elit. Fugiat eius magni </p>

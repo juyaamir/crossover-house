@@ -48,8 +48,11 @@ const Sale = () => {
                 <h1 className="font-bold text-base">Apartments House</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
             </div>
-
         </div>
+        <p className="text-center  mx-auto py-6">
+                    <button className="px-2 border border-gray-700 py-1 rounded-xl  text-blue-400">FIND MORE
+                    </button>
+                </p>
     </div>
   )
 }
