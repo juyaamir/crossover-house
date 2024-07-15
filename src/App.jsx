@@ -1,12 +1,15 @@
-
+import React from 'react';
 import './App.css'
+import WhyChooseUs from './components/WhyChooseUs';
+import VeryGoodDeal from './components/VeryGoodDeal';
 
 function App() {
 
 
   return (
     <>
-      <p className='text-red-400'>hello good</p>
+      <VeryGoodDeal />
+      <WhyChooseUs />
     </>
   )
 }
