@@ -18,7 +18,7 @@ const Price = () => {
                     </div>
                 </div>
                 <button className="block mx-auto px-4 border border-blue-900 rounded-xl bg-blue-800 
-                text-white my-8">Buy Now</button>
+                text-white my-8 hover:border-none">Buy Now</button>
             </div>
 
             <div className="w-56">
@@ -32,7 +32,7 @@ const Price = () => {
                     </div>
                 </div>
                 <button className="block mx-auto px-4 border border-blue-900 rounded-xl bg-yellow-400 
-                text-white my-8">Buy Now</button>
+                text-white my-8 hover:border-none">Buy Now</button>
             </div>
 
             <div className="w-56">
@@ -46,7 +46,7 @@ const Price = () => {
                     </div>
                 </div>
                 <button className="block mx-auto px-4 border border-blue-900 rounded-xl bg-blue-800 
-                text-white my-8">Buy Now</button>
+                text-white my-8 hover:border-none">Buy Now</button>
             </div>
         </div>
     </div>

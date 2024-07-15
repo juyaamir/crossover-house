@@ -50,7 +50,7 @@ const Sale = () => {
             </div>
         </div>
         <p className="text-center  mx-auto py-6">
-                    <button className="px-2 border border-gray-700 py-1 rounded-xl  text-blue-400">FIND MORE
+                    <button className="px-2 border border-gray-700 py-1 rounded-xl hover:bg-gray-300 text-blue-400">FIND MORE
                     </button>
                 </p>
     </div>

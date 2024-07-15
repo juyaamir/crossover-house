@@ -11,7 +11,7 @@ const About = () => {
              <p>Lorem ipsum dolor sit amet consectetur 
                 adipisicing elit. Fugiat eius magni </p>
                 <p className="my-8">
-                    <button className="px-2 border border-gray-700 py-1 rounded-xl  text-blue-400">READ MORE
+                    <button className="px-2 border border-gray-700 py-1 rounded-xl hover:bg-gray-300 text-blue-400">READ MORE
                     </button>
                 </p>
             </div>

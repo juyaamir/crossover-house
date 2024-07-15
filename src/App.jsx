@@ -1,4 +1,3 @@
-import React from 'react';
 import House from './components/House'
 import About from './components/About'
 import Sale from './components/Sale'
